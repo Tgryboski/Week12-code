@@ -33,6 +33,15 @@ def FindWordCount(lis, burd): #because thebird is theword
     return out
 
 
+def ScoreFinder(lys, scor, nam):
+    out = 'player not found'
+    for p in range(0, len(lys)-1):
+        if nam.lower() == lys[p].lower():
+            out = ('%s got a score of %d' % (lys[p], scor[p]))
+    return out
+            
+
+
 
 
 
