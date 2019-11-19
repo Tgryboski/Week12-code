@@ -63,6 +63,12 @@ def Intersection(li, l2):
 
 
 
+def Notln(li, l2):
+    out = []
+    for k in li:
+        if k not in l2:
+            out.append(k)
+    return out
 
 
 
