@@ -54,6 +54,15 @@ def Union(li, l2):
 
 
 
+def Intersection(li, l2):
+    out = []
+    for k in l2:
+        if k in li:
+            out.append(k)
+    return out
+
+
+
 
 
 
