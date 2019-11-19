@@ -42,6 +42,20 @@ def ScoreFinder(lys, scor, nam):
             
 
 
+def Union(li, l2):
+    out = []
+    for s in li:
+        if s not in out:
+            out.append(s)
+    for k in l2:
+        if k not in out:
+            out.append(k)
+    return out
+
+
+
+
+
 
 
 
